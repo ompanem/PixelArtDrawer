@@ -5,6 +5,7 @@ public class Frame extends JFrame {
     public Frame(Panel panel){
         this.panel = panel;
         setSize(640,640);
+        setResizable(false);
         setTitle("Pixel Art Drawer");
         setLocationRelativeTo(null);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);

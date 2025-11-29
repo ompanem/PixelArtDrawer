@@ -13,8 +13,6 @@ public class Button {
         this.pressed = pressed;
 
 
-        button.addActionListener(e -> changeBackground());
-
     }
 
     public void changeBackground(){
